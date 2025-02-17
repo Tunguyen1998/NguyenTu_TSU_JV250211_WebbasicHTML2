@@ -1,51 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tap tao bang</title>
+    <title>Bai tap ve nha</title>
+    <h1>Bài tập về nhà</h1>
 </head>
 <body>
-    <section>
-        <h2>Tạo bảng</h2>
-        <hr />
-    <table border="2"> 
-        <tr>
-            <th>STT</th>
-            <th>NAME</th>
-            <th>AGE</th>
-            <th>EMAIL</th>
-            <th>STATUS</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Nguyễn Văn A </td>
-            <td>18</td>
-            <td>NguyenVanA@gmail.com</td>
-            <td>Hoạt động</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Trần Văn B </td>
-            <td>23</td>
-            <td>TranVanB@gmail.com</td>
-            <td>Hoạt động</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Phạm Thị C </td>
-            <td>19</td>
-            <td>PhamThiC@gmail.com</td>
-            <td>Hoạt động</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>Phan Van D </td>
-            <td>20</td>
-            <td>PhanVanD@gmail.com</td>
-            <td>Không hoạt động</td>
-        </tr>
-    </table>
-</section>
+    <form action="./BTVN2.html" method="post">
+        <label for="hvt">Họ và tên: </label><br>
+        <input type="text" id="hvt" name="hvt"><br>
+        <label for="Email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="sdt">Số điện thoại:</label><br>
+        <input type="tel" id="sdt" name="sdt"><br>
+        <label for="gt">Giới tính:</label><br>
+        <input type="radio" id="gender" name="gender" value="Nam">
+        <label for="Nam">Nam</label>
+        <input type="radio" id="gender" name="gender" value="Nữ">
+        <label for="Nữ">Nữ</label><br>
+        <br>
+
+        <button>Đăng ký</button>
+
+    </form>
 </body>
 </html>
